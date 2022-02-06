@@ -72,6 +72,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -82,12 +83,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-one-upper {
   position: relative;
   height: 3%;
   width: 100%;
+  border-radius: 10px 10px 0 0;
   background-color: #45d3d3;
 }
 
@@ -109,7 +114,11 @@ body {
 .card-two {
   height: 300px;
   width: 300px;
+  background-color: white;
   margin: 10px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -124,6 +133,7 @@ body {
 
 .card-two-upper {
   position: relative;
+  border-radius: 10px 10px 0 0;
   background-color: #ea5353;
   height: 3%;
   width: 100%;
@@ -132,7 +142,11 @@ body {
 .card-three {
   height: 300px;
   width: 300px;
+  background-color: white;
   margin: 10px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -146,6 +160,7 @@ body {
 }
 
 .card-three-upper {
+  border-radius: 10px 10px 0 0;
   background-color: #fcaf4a;
   height: 3%;
   width: 100%;
@@ -154,10 +169,14 @@ body {
 .card-four {
   height: 300px;
   width: 300px;
+  background-color: white;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -167,6 +186,7 @@ body {
 }
 
 .card-four-upper {
+  border-radius: 10px 10px 0 0;
   height: 3%;
   width: 100%;
   background-color: #549ef2;

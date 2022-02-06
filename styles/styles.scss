@@ -36,17 +36,30 @@ body {
   height: 300px;
   width: 300px;
   display: flex;
+  border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-one-upper {
   position: relative;
   height: 3%;
   width: 100%;
+  border-radius: 10px 10px 0 0;
   background-color: hsl(180, 62%, 55%);
 }
+
+// .card-one-lower{
+//     text-align:left;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: center;
+// }
 
 .card-two-three {
   display: flex;
@@ -58,7 +71,11 @@ body {
 .card-two {
   height: 300px;
   width: 300px;
+  background-color: white;
   margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -66,6 +83,7 @@ body {
 
 .card-two-upper {
   position: relative;
+  border-radius: 10px 10px 0 0;
   background-color: hsl(0, 78%, 62%);
   height: 3%;
   width: 100%;
@@ -74,13 +92,18 @@ body {
 .card-three {
   height: 300px;
   width: 300px;
+  background-color: white;
   margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .card-three-upper {
+  border-radius: 10px 10px 0 0;
   background-color: hsl(34, 97%, 64%);
   height: 3%;
   width: 100%;
@@ -89,12 +112,17 @@ body {
 .card-four {
   height: 300px;
   width: 300px;
+  background-color: white;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   justify-content: flex-start;
   align-items: center;
 }
 
 .card-four-upper {
+  border-radius: 10px 10px 0 0;
   height: 3%;
   width: 100%;
   background-color: hsl(212, 86%, 64%);
