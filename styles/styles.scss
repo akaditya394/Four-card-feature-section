@@ -10,16 +10,20 @@ body {
   background-color: hsl(0, 0%, 98%);
 }
 
+
+
 .upper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align:center;
 }
 
 .lower {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 75%;
@@ -126,4 +130,11 @@ body {
   height: 3%;
   width: 100%;
   background-color: hsl(212, 86%, 64%);
+}
+
+
+@media (max-width: 389px){
+    .upper{
+        text-align: center;
+    }
 }
