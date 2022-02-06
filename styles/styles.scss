@@ -7,6 +7,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .upper {
@@ -28,4 +29,35 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.card-one {
+  height: 400px;
+  width: 400px;
+  background-color: hsl(180, 62%, 55%);
+}
+
+.card-two-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-two {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(0, 78%, 62%);
+}
+
+.card-three {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(34, 97%, 64%);
+}
+
+.card-four {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(212, 86%, 64%);
 }
