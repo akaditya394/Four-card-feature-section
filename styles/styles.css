@@ -67,7 +67,7 @@ body {
 }
 
 .card-one {
-  height: 300px;
+  height: 250px;
   width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,7 +112,7 @@ body {
 }
 
 .card-two {
-  height: 300px;
+  height: 250px;
   width: 300px;
   background-color: white;
   margin: 10px 0;
@@ -140,7 +140,7 @@ body {
 }
 
 .card-three {
-  height: 300px;
+  height: 250px;
   width: 300px;
   background-color: white;
   margin: 10px 0;
@@ -167,7 +167,7 @@ body {
 }
 
 .card-four {
-  height: 300px;
+  height: 250px;
   width: 300px;
   background-color: white;
   -webkit-box-orient: vertical;
