@@ -20,8 +20,9 @@ body {
 .lower {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 75%;
 }
 
 .lower-middle {
@@ -32,8 +33,18 @@ body {
 }
 
 .card-one {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-one-upper {
+  position: relative;
+  height: 3%;
+  width: 100%;
   background-color: hsl(180, 62%, 55%);
 }
 
@@ -47,17 +58,44 @@ body {
 .card-two {
   height: 300px;
   width: 300px;
+  margin: 10px 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-two-upper {
+  position: relative;
   background-color: hsl(0, 78%, 62%);
+  height: 3%;
+  width: 100%;
 }
 
 .card-three {
   height: 300px;
   width: 300px;
+  margin: 10px 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-three-upper {
   background-color: hsl(34, 97%, 64%);
+  height: 3%;
+  width: 100%;
 }
 
 .card-four {
   height: 300px;
   width: 300px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-four-upper {
+  height: 3%;
+  width: 100%;
   background-color: hsl(212, 86%, 64%);
 }
