@@ -33,6 +33,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .lower {
@@ -43,6 +44,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -190,5 +193,11 @@ body {
   height: 3%;
   width: 100%;
   background-color: #549ef2;
+}
+
+@media (max-width: 389px) {
+  .upper {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
